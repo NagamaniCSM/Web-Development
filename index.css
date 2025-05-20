@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+html,body{
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.nav-link.dropdown-toggle,
+.nav-link{
+    color:black !important;
+}
+.navbar-brand{
+    color: rgb(231,121,47) !important;
+    padding-left: 100px;
+    font-family: 'Museo Slab', serif;
+}
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(21,53,83);
+    background-color:rgb(54, 91, 125);
+    color: white;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    height: 75vh;
+}
+.container2{
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 15px;
+    height: 40%;
+    width: 70%;
+    margin-top: 50px;
+}
+.container2 h4{
+    color: black;
+    margin: 15px; 
+    font-weight: normal;
+    margin-left: 25px;
+}
+.btn.btn-outline-primary{
+    padding: 5px;
+    margin: 5px;
+    width: 90%;
+}
+.content{
+    margin-left: 90px;
+    margin-right: 350px;
+    width: 100%;
+}
+.content h1{
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 1px;
+}
+.content h6{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.buttons{
+    margin-top: 10px;
+    margin-bottom: 90px;
+    margin-left: 20px;
+}
+.photo-container{  
+    height: 500px;
+    width: 400px;
+    padding: 0;
+    margin: 0;
+    border: 5px solid none;
+    overflow: hidden;
+    margin-left: 100px;
+    margin-top: 28px;
+}
+.photo{
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+.container2 a{
+    font-size: 20px;
+    font-weight: bold;
+    color:  rgb(0,96,163);
+}
+.footer-rank{
+    display: flex;
+    background-color: rgb(230,241,248);
+}
+.rank{
+    font-weight: bold;
+    color: rgb(0,96,163);
+}
+.rank-text{
+  padding: 10px 20px;
+  border-right: 1px solid gray;
+  padding-right: 50px;
+  font-size: 20px;
+}
+.rank1{
+    margin-right: 50px;
+}
+.border{
+    border: 9px solid rgb(12, 12, 12);
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 100px;
+}
+.nav-link.dropdown-toggle::after {
+  display: none !important;
+}
+.nav-link.dropdown-toggle i{
+    color:rgb(231,121,47) ;
+}
+.nav-item.dropdown {
+  position: relative;
+}
+
+
+
